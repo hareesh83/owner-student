@@ -1,4 +1,7 @@
 import React from 'react'
+import {FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube} from 'react-icons/fa'
+import Logo from '../../assets/owner.png'
+
 
 const Footer = () => {
   return (
@@ -7,13 +10,13 @@ const Footer = () => {
       <div class="footer">
         <div class="footer_primary">
           <div class="footer_logo">
-            <h1>Logo</h1>
+            {/* <img src={Logo} alt="logo" /> */}
           </div>
           <div class="social_media">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-            <i class="fa-brands fa-youtube"></i>
+            <FaFacebookF/>
+            <FaTwitter/>
+            <FaLinkedinIn/>
+            <FaYoutube/>
           </div>
         </div>
         <div class="footer_secondary">

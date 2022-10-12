@@ -50,6 +50,7 @@ ul {
   color: var(--black);
   font-size: 25px;
   font-weight: bold;
+  width: 50px;
 }
 
 .logo_header {
@@ -110,7 +111,6 @@ ul {
   .main_nav {
     display: none;
   }
-
   .show_nav {
     padding-top: 2%;
     display: flex;
@@ -118,6 +118,7 @@ ul {
     height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.142) !important;
   }
 
