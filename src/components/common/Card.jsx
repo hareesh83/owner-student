@@ -1,9 +1,13 @@
 import React from 'react'
 
 const Card = () => {
+  const apiData=[
+    {name:'pramod'},
+    {Job:'Dev'}
+  ]
   return (
     <div>
-      <h1 style="padding: 50px 0 0 50px; font-size: 32px;">Products</h1>
+      <h1 style={{padding: '50px 0 0 50px', fontSize: '32px'}}>{apiData.name}</h1>
     <div class="service_wrapper">
     <div class="service_card_wrapper">
       <div class="pic"></div>
